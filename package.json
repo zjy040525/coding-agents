@@ -1,0 +1,22 @@
+{
+  "name": "coding-agents",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.21.0",
+      "onFail": "download"
+    }
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^10.0.0",
+    "eslint": "^10.13.0",
+    "eslint-plugin-format": "^2.0.1"
+  }
+}

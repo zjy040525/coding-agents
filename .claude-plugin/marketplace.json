@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "zjy040525-coding-agents",
+  "description": "zjy040525's awesome guidances for coding agents",
+  "owner": {
+    "name": "zjy040525",
+    "email": "chiyukikana@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "gitlab-flow",
+      "description": "A Claude plugin that provides a GitLab flow for managing code repositories and development workflows.",
+      "author": {
+        "name": "zjy040525",
+        "email": "chiyukikana@gmail.com"
+      },
+      "source": "./plugins/gitlab-flow",
+      "category": "productivity",
+      "homepage": "https://github.com/zjy040525/coding-agents/blob/main/plugins/gitlab-flow"
+    }
+  ]
+}

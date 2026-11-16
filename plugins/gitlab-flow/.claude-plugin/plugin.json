@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "gitlab-flow",
+  "description": "GitLab Flow 提交规范助手：处理 Git 分支、暂存、提交、合并、推送与生产发布的规范化流程",
+  "version": "0.1.0",
+  "author": {
+    "name": "zjy040525",
+    "email": "chiyukikana@gmail.com"
+  }
+}
